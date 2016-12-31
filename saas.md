@@ -13,3 +13,13 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+**SaaS posts:**
+<ul>
+  {% for post in site.categories.saas %}
+    <li>
+      <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

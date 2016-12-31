@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PaaS
-permalink: /paas/
+title: HTML
+permalink: /html/
 ---
 
 rvm. This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
@@ -14,9 +14,9 @@ You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
 
-**PaaS posts:**
+**Ruby on Rails posts:**
 <ul>
-  {% for post in site.categories.paas %}
+  {% for post in site.categories.ror %}
     <li>
       <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
       {{ post.excerpt }}

@@ -117,13 +117,6 @@ $ git merge track1
 
 ---
 
-**Retales para Heroku PaaS**
-
-$ git push heroku
-$ heroku run rails db:migrate
-
----
-
 <a href="https://github.com/mariope/apuntes" target="_blank" class="big-button gray">Get it on GitHub &hearts;</a>
 
 ---
