@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Apuntes
-basicurl: https://mariope.github.io/apuntes
+baseurl: https://mariope.github.io/apuntes
 email: mariope.develop@gmail.com
 description: Colección de apuntes útiles para mi propio trabajo.
 baseurl: "" # the subpath of your site, e.g. /blog
