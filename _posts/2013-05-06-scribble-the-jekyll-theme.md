@@ -3,13 +3,14 @@ layout: post
 title: Scribble, a Jekyll theme
 date: 2013-05-06 16:27:31
 disqus: y
+categories: git
 ---
 
-I have other themes, checkout (mainly) [this repository](https://github.com/muan/muan.github.com/releases) and [this repository](https://github.com/muan/jekyll-wardrobe). <3
+I have other themes, checkout (mainly) [this repository](https://github.com/muan/muan.github.com/releases) and [this repository](https://github.com/muan/jekyll-wardrobe).
 
 ---
 
-There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind. This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme. 
+There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind. This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme.
 
 The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.
 
