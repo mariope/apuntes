@@ -14,9 +14,9 @@ You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
 
-**Ruby on Rails posts:**
+**HTML, CSS and Javascript posts:**
 <ul>
-  {% for post in site.categories.ror %}
+  {% for post in site.categories.html %}
     <li>
       <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
