@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Test Theme Styles"
+categories: test
 ---
 
 # Heading 1
@@ -110,7 +111,7 @@ Biographer Graham Balfour quoted Stevenson's wife Fanny Stevenson:
 > I had awakened him at the first transformation scene.
 
 
-Quotes from "The Strange Case of Dr. Jekyll and Mr. Hyde": 
+Quotes from "The Strange Case of Dr. Jekyll and Mr. Hyde":
 
 > Quiet minds cannot be perplexed or frightened but go on in fortune
 > or misfortune at their own private pace, like a clock during a thunderstorm.
@@ -125,13 +126,13 @@ Quotes from "The Strange Case of Dr. Jekyll and Mr. Hyde":
 
 > If I am the chief of sinners, I am the chief of sufferers also.
 >
-> -- Robert Louis Stevenson 
+> -- Robert Louis Stevenson
 
 
 
 ### Tables
 
----------------- | ------------------------ 
+---------------- | ------------------------
 Author           | Robert Louis Stevenson
 Original title   | Strange Case Of Dr Jekyll And Mr Hyde
 Country          | United Kingdom
@@ -167,8 +168,7 @@ Some specific examples:
 - `25.4mm` is always `96px`.
 
 ~~~
-html { font-size: 62.5%; } 
+html { font-size: 62.5%; }
 body { font-size: 1.4rem; } /* =14px */
 h1   { font-size: 2.4rem; } /* =24px */
 ~~~
-

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Repo - Bayern (Baviria) - incl. European Beer Stars 2011, 2012, 2013"
+categories: test
 ---
 
 Moved all beer, brewpub n brewery data for Bayern
@@ -8,4 +9,3 @@ Moved all beer, brewpub n brewery data for Bayern
 
 Also includes all European Beer Star winners from Bayern
 (Baviria) for the years 2011, 2012 and 2013. Cheers. Prost.
-
