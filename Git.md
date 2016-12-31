@@ -18,7 +18,7 @@ You can find the source code for Jekyll at
 <ul>
   {% for post in site.categories.git %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
