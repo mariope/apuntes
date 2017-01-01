@@ -74,9 +74,6 @@ Be aware that updating gems can break your application, so only update gems when
 [Gem selection from hothero](https://github.com/hothero/awesome-rails-gem){:target="_blank"}
 
 #### Bootstrap rails generator app examples:
-
-[Instalar rails apps con composer](https://github.com/RailsApps/rails-composer){:target="_blank"}
-
           1)  None
           2)  1 Col Portfolio
           3)  2 Col Portfolio
@@ -102,6 +99,9 @@ Be aware that updating gems can break your application, so only update gems when
          23)  The Big Picture
          24)  Thumbnail Gallery
       choose  Enter your selection: 7
+
+[Instalar rails apps con composer](https://github.com/RailsApps/rails-composer){:target="_blank"}
+
 ---
 
 <a href="https://github.com/mariope/apuntes" target="_blank" class="big-button gray">Get it on GitHub &hearts;</a>
