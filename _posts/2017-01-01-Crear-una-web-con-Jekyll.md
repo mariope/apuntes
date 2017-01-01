@@ -65,7 +65,7 @@ Lo primero será ver los catálogos de plantillas:
 - De pago y gratuítas: [https://jekyllthemes.io](https://jekyllthemes.io){:target="_blank"}
 - Sin thumbnails: [github.com/jekyll/](https://github.com/jekyll/jekyll/wiki/Themes){:target="_blank"}
 
-
+Descargar los ficheros del theme elegido y copiar en raiz con cuidado de no sobre escribir nada.
 
 ---
 
