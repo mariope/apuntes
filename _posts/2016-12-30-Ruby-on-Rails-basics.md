@@ -76,6 +76,7 @@ Be aware that updating gems can break your application, so only update gems when
 #### Bootstrap rails generator app examples:
 
 [Instalar rails apps con composer](https://github.com/RailsApps/rails-composer){:target="_blank"}
+
           1)  None
           2)  1 Col Portfolio
           3)  2 Col Portfolio
