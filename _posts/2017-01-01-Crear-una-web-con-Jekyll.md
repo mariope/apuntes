@@ -8,7 +8,7 @@ categories: ror jekyll
 tags: ror jekyll "Ruby on Rails"
 ---
 
-Pasos para crear una web con **Jekyll**.<br> en 5 minutos.
+Pasos para crear una web con **Jekyll** en ¡5 minutos!<br>
 [Pulsa aquí para ver la documentación completa de Jekyll.](https://jekyllrb.com/docs/home/){:target="_blank"}
 
 ---
@@ -56,6 +56,8 @@ Y mirar en el navegador:
 (http://localhost:4000/)
 
 Listo! (¡menos de 5 minutos!)
+
+---
 
 ### Aplicar una plantilla (theme)
 
