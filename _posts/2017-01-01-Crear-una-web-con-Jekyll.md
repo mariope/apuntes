@@ -61,11 +61,9 @@ Listo! (¡menos de 5 minutos!)
 
 Lo primero será ver los catálogos de plantillas:
 
-Enorme catálogo free: [http://jekyllthemes.org](http://jekyllthemes.org){:target="_blank"}
-
-De pago y gratuítas: [https://jekyllthemes.io](https://jekyllthemes.io){:target="_blank"}
-
-Sin thumbnails: [github.com/jekyll/](https://github.com/jekyll/jekyll/wiki/Themes){:target="_blank"}
+- Enorme catálogo free: [http://jekyllthemes.org](http://jekyllthemes.org){:target="_blank"}
+- De pago y gratuítas: [https://jekyllthemes.io](https://jekyllthemes.io){:target="_blank"}
+- Sin thumbnails: [github.com/jekyll/](https://github.com/jekyll/jekyll/wiki/Themes){:target="_blank"}
 
 
 
