@@ -42,17 +42,32 @@ Instalar la versión de rails que se quiere utilizar:
 
 #### Instalar Jekyll
 `$ gem install jekyll bundler`
-`$ jekyll new .``
+
+`$ jekyll new .`
 
 #### Probar la instalación
 
-Arranacar el servidor:
+Arrancar el servidor:
 
 `$ bundle exec jekyll serve --drafts`
 
 Y mirar en el navegador:
 
 (http://localhost:4000/)
+
+Listo! (¡menos de 5 minutos!)
+
+### Aplicar una plantilla (theme)
+
+Lo primero será ver los catálogos de plantillas:
+
+Enorme catálogo free: [http://jekyllthemes.org](http://jekyllthemes.org){:target="_blank"}
+
+De pago y gratuítas: [https://jekyllthemes.io](https://jekyllthemes.io){:target="_blank"}
+
+Sin thumbnails: [github.com/jekyll/](https://github.com/jekyll/jekyll/wiki/Themes){:target="_blank"}
+
+
 
 ---
 
