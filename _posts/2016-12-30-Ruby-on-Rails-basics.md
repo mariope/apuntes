@@ -32,7 +32,7 @@ Básicos de **Ruby on Rails**.<br>
 The rails new command generates the default Rails starter app. If you wish, you can use the Rails Composer tool to generate a starter application with a choice of basic features and popular gems.
 
 ```
-$ rails init .
+$ rails new .
 ```
 
 #### Instalar las dependencias
