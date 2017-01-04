@@ -34,11 +34,7 @@ $  rvm gemset list
 
 Seleccionar la versión de ruby que se quiere utilizar:
 
-`$ rvm use ruby-2.3.1@my_web_rails501 --ruby-version --create`
-
-Instalar la versión de rails que se quiere utilizar:
-
-`$ gem install rails --version 5.0.1`
+`$ rvm use ruby-2.3.1@jekyll3 --ruby-version --create`
 
 #### Instalar Jekyll
 `$ gem install jekyll bundler`
