@@ -9,19 +9,16 @@ tags: swift
 ---
 
 Apuntes básicos de **Swift**.<br>
-[Pulsa aquí para ver la documentación completa de bash.](https://www.gnu.org/software/bash/manual/html_node/index.html){:target="_blank"}
+[Pulsa aquí para ver la documentación completa de Swift.](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/#//apple_ref/doc/uid/TP40014097-CH3-ID0){:target="_blank"}
 
 ---
 
-### Básicos
+# Básicos
 
-Los scripts deben empezar siempre con:
+## Iconos
 
-`#!/bin/bash`
+- Tamaño de 24 x 24 píxeles en formato PNG.
 
-Para crear un enlace simbólico de un path demasiado largo:
-
-`ln -s /Users/mario/Library/Mobile\ Documents/com~apple~CloudDocs/Docs Docs`
 
 ---
 
