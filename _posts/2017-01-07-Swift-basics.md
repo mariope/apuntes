@@ -17,7 +17,7 @@ Apuntes básicos de **Swift**.<br>
 
 ### Iconos
 
-- Tamaño de 24 x 24 píxeles en formato PNG.
+- Tamaño de 24 x 24 píxeles en formato PNG con fondo transparente.
 
 
 ---
