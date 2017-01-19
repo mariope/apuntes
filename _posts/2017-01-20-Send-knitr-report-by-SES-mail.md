@@ -1,12 +1,14 @@
 ---
 layout: post
-title: AWS basic commands
+title: Send knitr html report by SES mail
 date: 2017-01-20 16:27:31
 disqus: y
 share: y
 categories: paas aws ses R
 tags: paas aws ses R knitr mail
 ---
+
+How to send knitr html report with base64 images by SES mail!
 
 ## Generating html report with knitr
 
