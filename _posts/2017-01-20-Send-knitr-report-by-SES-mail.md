@@ -12,15 +12,18 @@ How to send knitr html report with base64 images by SES mail!
 
 ## Generating html report with knitr
 You need a \*.Rmd markdown file with R code to generate the report.
+
 ```
 #!/usr/bin/env Rscript
 library(rmarkdown)
 rmarkdown::render("report.Rmd")
 ```
+
 The output is a html file.
 
 ## AWS SES html mail with base64 images
 Then read the report.html with `cat`, clean with `xmllint` to get only all the body tag and send it!
+
 ```
 #!/bin/bash
 
@@ -47,6 +50,7 @@ message="Message.Body.Html.Data="$(cat report2.html)
 
 curl -v -X POST -H "Date: $date" -H "$content_type" -H "$mime_version" -H "$auth_header" --data-urlencode "$message" --data-urlencode "$to" --data-urlencode "$source" --data-urlencode "$action" --data-urlencode "$subject" "$endpoint"
 ```
+
 Voilà!
 
 ---
