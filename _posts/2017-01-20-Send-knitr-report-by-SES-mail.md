@@ -49,33 +49,34 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+\```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 require(XML)
 require(knitr)
 options(width = 80)
-```
+\```
 
 ## report
 Hey man!. Did you know this?
-```{r, include=FALSE}
+\```{r, include=FALSE}
 x <- rnorm(20)
 plot(x)
-```
-
+\```
 ```
 
 We want to generate the report by command line, so we need a R file like this:
+
 ```
 #!/usr/bin/env Rscript
 library(rmarkdown)
 rmarkdown::render("report.Rmd")
 ```
 
-The output is a html file.
+The output is a html file like report.html.
 
 ## AWS SES html mail with base64 images
-Then clean the report.html with `xmllint` and read it with `cat`,  to get only all the body tag and send it!
+Then clean the report.html with `xmllint` and read it with `cat`,  
+to get only all the body tag and send it with curl:
 
 ```
 #!/bin/bash
