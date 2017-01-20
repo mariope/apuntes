@@ -105,6 +105,21 @@ message="Message.Body.Html.Data="$(cat report2.html)
 curl -v -X POST -H "Date: $date" -H "$content_type" -H "$mime_version" -H "$auth_header" --data-urlencode "$message" --data-urlencode "$to" --data-urlencode "$source" --data-urlencode "$action" --data-urlencode "$subject" "$endpoint"
 ```
 
+## Program the automatic report
+Finally it's only necessary to adjust files permissions and configure the crontab:
+
+```
+chmod 744 report.R report.Rmd report.sh
+crontab -e
+```
+
+Edit with vi and add this line:
+We need to read the environment variables, move to folder for output files and execute the script.
+
+```
+0	6	*	*	1-6	source ~/.bash_profile; cd data/scripts/; ./report.sh
+```
+
 Voilà!
 
 ---
