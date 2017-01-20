@@ -4,7 +4,7 @@ title: Send knitr html report by SES mail
 date: 2017-01-20 16:27:31
 disqus: y
 share: y
-categories: paas aws ses R
+categories: paas R aws ses
 tags: paas aws ses R knitr mail
 ---
 
