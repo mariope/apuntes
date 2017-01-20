@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Send knitr html report with embed base64 images by SES mail
+author: Mario Pisa
 date: 2017-01-20 16:27:31
 disqus: y
 share: y
