@@ -22,9 +22,11 @@ These steps only are a puzzle composition from other pages, the more important r
 - AWS SES running
 - R on EC2
 - Install knitr on R EC2
+- Install rmarkdown on R EC2
 
 ```
-install.packages("xlsx", lib="~/data/scripts/Rpackages/", dependencies = TRUE, repos='http://cran.us.r-project.org')
+install.packages("knitr", lib="~/data/scripts/Rpackages/", dependencies = TRUE, repos='http://cran.us.r-project.org')
+install.packages("rmarkdown", lib="~/data/scripts/Rpackages/", dependencies = TRUE, repos='http://cran.us.r-project.org')
 ```
 
 - An user with permissions over all SES (with AWS IAM)
