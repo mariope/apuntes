@@ -22,10 +22,12 @@ These steps only are a puzzle composition from other pages, the more important r
 - AWS SES running
 - R on EC2
 - Install knitr on R EC2
+
 ```
 install.packages("xlsx", lib="~/data/scripts/Rpackages/", dependencies = TRUE, repos='http://cran.us.r-project.org')
 ```
-- User with permissions over all SES (with AWS IAM)
+
+- An user with permissions over all SES (with AWS IAM)
 
 ## Generating html report with knitr
 **knitr** and **markdwn** are awesome packages developed by Yihui Xie and others. Visit its CRAN repository
@@ -38,6 +40,7 @@ There are many sites to learn knitr and markdown. [R-Markdown and Knitr Tutorial
 We need a \*.Rmd markdown file with R code to generate the html report.
 
 For example: (report.Rmd)
+
 ```
 ---
 title: "report"
