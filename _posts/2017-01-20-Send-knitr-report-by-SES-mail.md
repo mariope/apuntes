@@ -124,6 +124,11 @@ We need to read the environment variables, move to folder for output files and e
 
 Voilà!
 
+
+---
+
+To learn more R visit [R-bloggers](http://www.R-bloggers.com )
+
 ---
 
 <a href="https://github.com/mariope/apuntes" target="_blank" class="big-button gray">Get it on GitHub &hearts;</a>
