@@ -49,20 +49,19 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
 
-{r setup, include=FALSE}
+\```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 require(XML)
 require(knitr)
 options(width = 80)
-
+\```
 
 ## report
 Hey man!. Did you know this?
-
-{r, include=FALSE}
+\```{r, include=FALSE}
 x <- rnorm(20)
 plot(x)
-
+\```
 ```
 
 We want to generate the report by command line, so we need a R file like this:
