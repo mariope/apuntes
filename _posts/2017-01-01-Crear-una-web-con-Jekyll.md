@@ -65,6 +65,12 @@ Lo primero será ver los catálogos de plantillas:
 
 Descargar los ficheros del theme elegido y copiar en raiz con cuidado de no sobre escribir nada.
 
+### Run on background
+
+```
+ nohup bundle exec jekyll serve --watch &> /dev/null &
+```
+
 ---
 
 <a href="https://github.com/mariope/apuntes" target="_blank" class="big-button gray">Get it on GitHub &hearts;</a>
