@@ -114,6 +114,17 @@ $ git checkout master
 $ git merge track1
 ```
 
+### Working with tags
+
+```
+$ git tag -a v1.4 -m "my version 1.4"
+$ git tag
+$ git tag -l "v1.8.5*"
+$ git show v1.4
+# By default, the git push command doesn’t transfer tags to remote servers.
+# You will have to explicitly push tags to a shared server after you have created them.
+$ git push origin v1.5
+```
 
 ---
 
