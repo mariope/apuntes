@@ -125,7 +125,6 @@ $ git show v1.4
 # You will have to explicitly push tags to a shared server after you have created them.
 $ git push origin v1.5
 ```
-.
 
 ---
 
