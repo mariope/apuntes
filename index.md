@@ -4,6 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-<span style="color:red">WARNING!</span>Do not waste your time on this website,
+<span style="color:red">WARNING!</span> Do not waste your time on this website,
 it only contains dirty notes for my personal use. If you still want to read,
 you will find useful links to the original documentation of each topic.
