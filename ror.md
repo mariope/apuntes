@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ruby on Rails & Jekyll
+title: Ruby on Rails
 permalink: /ror/
 ---
 
