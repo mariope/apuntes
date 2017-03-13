@@ -4,7 +4,7 @@ title: Raspberry Pi
 permalink: /raspi/
 ---
 
-**Ruby on Rails posts:**
+**Raspberry Pi posts:**
 <ul>
   {% for post in site.categories.raspi %}
     <li>
