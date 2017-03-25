@@ -18,6 +18,11 @@ y también para los repositorios remotos **GitHub** y **Bitbucket**.<br>
 
 ``$ git init .``
 
+### Saving credentials
+
+``git config --global credential.helper cache``
+
+See [https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
 ---
 
 ### Clonar un repositorio Git
