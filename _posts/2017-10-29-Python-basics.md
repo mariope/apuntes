@@ -15,6 +15,8 @@ Comandos básicos de **Python**.<br>
 
 ### Python basic commands
 
+### Python environments
+
 ```Python
 conda create -n python3.6 python=3.6 anaconda
 source activate python3.6
